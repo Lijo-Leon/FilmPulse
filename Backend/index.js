@@ -21,7 +21,7 @@ const appMiddleware = require('./middlewares/appMiddleware')
 const filmPulseServer = express()
 //use cors
 filmPulseServer.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:3000"],
+    origin: ["http://localhost:5173", "http://localhost:3000", "https://filmpulse-backend.onrender.com/"],
     credentials: true
 }));
 //json Middleware
